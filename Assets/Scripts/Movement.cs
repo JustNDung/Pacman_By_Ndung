@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class PacmanMovement : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     public float speed = 8.0f;
     public float speedMultiplier = 1.0f;
