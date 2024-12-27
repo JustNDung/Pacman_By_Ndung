@@ -56,5 +56,8 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "PacmanByNdung.sln"
+    "dotnet.defaultSolution": "PacmanByNdung.sln",
+    "cSpell.words": [
+        "Pacman"
+    ]
 }
