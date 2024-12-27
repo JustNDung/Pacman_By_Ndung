@@ -985,6 +985,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 873d1db515d5037449ddec76af44c0ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ghosts: []
+  pacman: {fileID: 0}
+  pellets: {fileID: 1625020814}
 --- !u!4 &298233683
 Transform:
   m_ObjectHideFlags: 0
