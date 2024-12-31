@@ -2,6 +2,11 @@ using UnityEngine;
 
 public class GhostChase : GhostBehavior
 {
+    private void OnDisable()
+    {
+        // Kích hoạt chế độ scatter khi chase bị vô hiệu hóa
+        this.ghost.scatter.Enable();
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         Node node = other.GetComponent<Node>();
@@ -45,9 +50,4 @@ public class GhostChase : GhostBehavior
         }
     }
 
-    private void OnDisable()
-    {
-        // Kích hoạt chế độ scatter khi chase bị vô hiệu hóa
-        this.ghost.scatter.Enable();
-    }
 }
