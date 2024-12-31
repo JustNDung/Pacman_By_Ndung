@@ -17,7 +17,8 @@ public class GhostScatter : GhostBehavior
             int index = Random.Range(0, node.availableDirections.Count);
             Vector2 chosenDirection = node.availableDirections[index];
 
-            while (chosenDirection == -this.ghost.movement.direction && node.availableDirections.Count > 1) {
+            while (chosenDirection == -this.ghost.movement.direction 
+               && node.availableDirections.Count > 1) {
                 index = Random.Range(0, node.availableDirections.Count);
                 chosenDirection = node.availableDirections[index];
             }
@@ -31,6 +32,5 @@ public class GhostScatter : GhostBehavior
     {
         // Kích hoạt chế độ chase khi scatter bị vô hiệu hóa
         this.ghost.chase.Enable();
-        Debug.Log("Scatter disabled");
     }
 }
