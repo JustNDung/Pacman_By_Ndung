@@ -131,6 +131,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost_Clyde
       objectReference: {fileID: 0}
+    - target: {fileID: 2316035589743582184, guid: 34bcfd3467c769b459e2b86a16d609da, type: 3}
+      propertyPath: duration
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3721908916026642944, guid: 34bcfd3467c769b459e2b86a16d609da, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 441949648}
     - target: {fileID: 5132814523099355560, guid: 34bcfd3467c769b459e2b86a16d609da, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -1093,7 +1101,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 873d1db515d5037449ddec76af44c0ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ghosts: []
+  ghosts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   pacman: {fileID: 441949644}
   pellets: {fileID: 1625020814}
 --- !u!4 &298233683
@@ -1578,6 +1590,14 @@ PrefabInstance:
     - target: {fileID: 2006517441604023250, guid: d7b2b664d3eeb344f9cfe1071be66443, type: 3}
       propertyPath: m_Name
       value: Ghost_Inky
+      objectReference: {fileID: 0}
+    - target: {fileID: 2358852054649126578, guid: d7b2b664d3eeb344f9cfe1071be66443, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 441949648}
+    - target: {fileID: 3692535098537359194, guid: d7b2b664d3eeb344f9cfe1071be66443, type: 3}
+      propertyPath: duration
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6062364753150522650, guid: d7b2b664d3eeb344f9cfe1071be66443, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10240,6 +10260,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost_Pinky
       objectReference: {fileID: 0}
+    - target: {fileID: 3324995870056832295, guid: 569f67e78f599324eae872c539cbd8c2, type: 3}
+      propertyPath: duration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442260386440565967, guid: 569f67e78f599324eae872c539cbd8c2, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 441949648}
     - target: {fileID: 5276986918020144999, guid: 569f67e78f599324eae872c539cbd8c2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10337,6 +10365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost_Blinky
       objectReference: {fileID: 0}
+    - target: {fileID: 7099432160081159110, guid: 528adfe915b5ac74d94b97d14db58fb6, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 441949648}
     - target: {fileID: 8522556866441638411, guid: 528adfe915b5ac74d94b97d14db58fb6, type: 3}
       propertyPath: m_Radius
       value: 0.5
