@@ -7,7 +7,7 @@ public class Ghost : MonoBehaviour
     public GhostChase chase { get; private set; }
     public GhostFrightened frightened { get; private set; }
     public GhostScatter scatter { get; private set; }
-    public GhostBehavior initialBehavior { get; private set; }
+    public GhostBehavior initialBehavior;
     public Transform target;
     public int points = 200;
 
