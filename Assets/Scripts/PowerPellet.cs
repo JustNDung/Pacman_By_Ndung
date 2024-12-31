@@ -9,3 +9,4 @@ public class PowerPellet : Pellet
         FindFirstObjectByType<GameManager>().PowerPelletEaten(this);
     }
 }
+    

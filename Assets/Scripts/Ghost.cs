@@ -43,7 +43,7 @@ public class Ghost : MonoBehaviour
         }
     }
 
-     private void OnCollisionEnter2D(Collision2D other) {
+    private void OnCollisionEnter2D(Collision2D other) {
         if (other.gameObject.layer == LayerMask.NameToLayer("Pacman")) {
             if (this.frightened.enabled) {
                 FindFirstObjectByType<GameManager>().GhostEaten(this);
@@ -51,6 +51,6 @@ public class Ghost : MonoBehaviour
                 FindFirstObjectByType<GameManager>().PacmanEaten();
             }
         }
-     }
+    }
         
 }

@@ -415,6 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67dc490db427564281855495d2fccce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialBehavior: {fileID: 0}
   target: {fileID: 0}
   points: 200
 --- !u!114 &229067995194029850
@@ -461,6 +462,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 8
+  body: {fileID: 1001067119199298526}
+  eyes: {fileID: 772055872531434077}
+  blue: {fileID: 7053455975205302917}
+  white: {fileID: 2949960695185156508}
 --- !u!114 &9146080065646676050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -474,6 +479,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 0
+  inside: {fileID: 0}
+  outside: {fileID: 0}
 --- !u!114 &995922752286539396
 MonoBehaviour:
   m_ObjectHideFlags: 0
